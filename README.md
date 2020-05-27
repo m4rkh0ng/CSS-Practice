@@ -34,13 +34,28 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+    A: An adaptive design takes on the strategy of developing uniquely, individually designed layouts per multiple screen sizes, whereas fully responsive design adapts the content of the webpage to the size of the screen being used.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+    A: A mobile first design will begin from a design that best serves mostly mobile/phone/tablet users, after which it will then consider larger screen sizes.
+    A desktop first design will do the opposite, considering desktop interactivity first, then mobile interaction last.
+
+    Both have their advantages depending on the needs of the project.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+    A: This will change the default value of the other font sizes using rem units, without otherwise being more specifically modified, to 62.5% of the default rem value. So, if in the case the default rem value is 16px, we'll see a change in the font size of the rest of the text of the page using rem units be changed to 0.625*16 = 10px.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+    A: I would describe preprocessing, in relation to CSS, as a method of writing in a more modular, controlled manner which then can be compiled into vanilla CSS afterwards for end-use. (memo: not sure if this helps a beginner understand— try to clarify this answer again later)
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+    A: My favorite concept in preprocessing is being able to assign variable names to commonly reused values, especially colors. That way, if a design decision comes to the point of changing the style of a particular element, we can change the value once and it will propagate to every instance of it being used in the rest of the CSS document. In vanilla CSS, this could mean that, if we needed to change a border radius or color in dozens of different places, we might have to re-type hexcodes or numerical values dozens of times. I am grateful for preprocessors for this reason to avoid errors and repetitive work.
+
+    The concept that gives me the most trouble in preprocessors is probably the fact that multiple preprocessors exist and can are written differently and that I do not already have the accumulated familiarity and knowledge of the differences between LESS vs SCSS or others. It would be awesome to already have the differences and nuances accumulated into my working knowledge ahead of time. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
